@@ -2,7 +2,7 @@
 
 Add this line to your application's Gemfile:
 
-    gem 'booleanizer'
+    gem 'self_inquirer'
 
 And then execute:
 
@@ -10,12 +10,12 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install booleanizer
+    $ gem install self_inquirer
 
 ## Usage
 
 ```ruby
-require 'booleanizer'
+require 'self_inquirer'
 
 animal = :neko
 

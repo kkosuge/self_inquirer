@@ -1,16 +1,16 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'booleanizer/version'
+require 'self_inquirer/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "booleanizer"
-  spec.version       = Booleanizer::VERSION
+  spec.name          = "self_inquirer"
+  spec.version       = SelfInquirer::VERSION
   spec.authors       = ["kkosuge"]
   spec.email         = ["root@kksg.net"]
-  spec.description   = %q{Add booleanize method to Symbol}
-  spec.summary       = %q{Add booleanize method to Symbol}
-  spec.homepage      = "https://github.com/kkosuge/booleanizer"
+  spec.description   = %q{Add to built-in classes a method to test for equality.}
+  spec.summary       = %q{Add to built-in classes a method to test for equality.}
+  spec.homepage      = "https://github.com/kkosuge/self_inquirer"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)

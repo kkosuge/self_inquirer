@@ -1,4 +1,4 @@
-require 'booleanizer'
+require 'self_inquirer'
 
 describe Symbol do
   it do
